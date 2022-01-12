@@ -1,4 +1,4 @@
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
+# Content-Based-Movie-Recommender-System-with-sentiment-analysis
 
 
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
@@ -12,11 +12,13 @@ check out my project here: https://movie-recommender-by-kalyani.herokuapp.com/
 
 ## Movie Recommender System User interface :
 
-![screen1](C:/Users/srava/OneDrive/Pictures/screen1.png)
+![screen1](https://user-images.githubusercontent.com/89970618/149150033-3b4daf12-5f05-4e1a-aabc-a4503eba541a.png)
 
-![screen2](C:/Users/srava/OneDrive/Pictures/screen2.png)
+![screen2](https://user-images.githubusercontent.com/89970618/149150188-3783ca6a-e99e-42a7-ae27-a3157f3d44e8.png)
 
-![screen3](C:/Users/srava/OneDrive/Pictures/screen3.png)
+![screen3](https://user-images.githubusercontent.com/89970618/149150373-2aa5fbe1-2255-43ca-8243-a35a425913b8.png)
+
+
 
 ## Similarity Score : 
 
