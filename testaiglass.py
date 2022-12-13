@@ -91,5 +91,7 @@ le = preprocessing.LabelEncoder()
 from sklearn.preprocessing import OrdinalEncoder
 enc = OrdinalEncoder()
 
+k=pd.get_dummies(y_train)
+
 
 
