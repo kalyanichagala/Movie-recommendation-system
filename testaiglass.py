@@ -86,6 +86,8 @@ y_val=y_train
 
 
 # In[ ]:
+from sklearn import preprocessing
+le = preprocessing.LabelEncoder()
 
 
 
