@@ -94,5 +94,7 @@ enc = OrdinalEncoder()
 k=pd.get_dummies(y_train)
 from sklearn.preprocessing import OneHotEncoder
 
+enc=OneHotEncoder()
+
 
 
