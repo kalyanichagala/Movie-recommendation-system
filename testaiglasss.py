@@ -44,7 +44,7 @@ df1.head()
 from sklearn.preprocessing import OneHotEncoder
 
 enc=OneHotEncoder()
-enc_data=pd.DataFrame(enc.fit_transform(df[[' battery_power']]).toarray())
+enc_data=pd.DataFrame(enc.fit_transform(df[['battery_power']]).toarray())
 df=df.join(enc_data)
 
 
