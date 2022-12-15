@@ -28,7 +28,7 @@ df["price_range"].value_counts()
 # In[15]:
 
 
-df1=pd.get_dummies(df, columns=['clock_speed', 'mobile_wt'])
+#df1=pd.get_dummies(df, columns=['clock_speed', 'mobile_wt'])
 
 
 # In[16]:
@@ -40,7 +40,12 @@ df1.head()
 # In[17]:
 
 
-df=df1
+#df=df1
+from sklearn.preprocessing import OneHotEncoder
+
+enc=OneHotEncoder()
+enc_data=pd.DataFrame(enc.fit_transform(df[[' battery_power']]).toarray())
+df=df.join(enc_data)
 
 
 # In[18]:
@@ -107,6 +112,12 @@ y_val=y_train
 
 
 X_val.head()
+
+from sklearn.preprocessing import OneHotEncoder
+
+enc=OneHotEncoder()
+enc_data=pd.DataFrame(enc.fit_transform(df[[' battery_power']]).toarray())
+New_df=df.join(enc_data)
 
 
 # In[ ]:
