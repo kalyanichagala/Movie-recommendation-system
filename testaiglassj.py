@@ -184,9 +184,9 @@ ma = MaxAbsScaler()
 # In[75]:
 
 
-from sklearn.preprocessing import RobustScaler
+#from sklearn.preprocessing import RobustScaler
 
-rs = RobustScaler()
+#rs = RobustScaler()
 
 
 # In[ ]:
