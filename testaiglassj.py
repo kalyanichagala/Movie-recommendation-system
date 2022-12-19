@@ -104,7 +104,7 @@ clf = RandomForestClassifier(max_depth=2, random_state=0)
 # In[29]:
 
 
-y_train=df[-1]
+#y_train=df[-1]
 
 
 # In[69]:
