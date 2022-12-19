@@ -220,6 +220,7 @@ X_val.head()
 # from sklearn.preprocessing import RobustScaler
 
 # rs = RobustScaler()
+from sklearn.model_selection import RandomizedSearchCV
 
 
 # In[ ]:
