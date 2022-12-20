@@ -28,7 +28,7 @@ df.head()
 # In[12]:
 
 
-df.dropna(inplace=True)
+df=df.dropna()
 
 
 # In[13]:
