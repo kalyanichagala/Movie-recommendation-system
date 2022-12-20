@@ -52,7 +52,7 @@ y_train=df["LSTAT"]
 # In[9]:
 
 
-from sklearn.ensemble import RandomForestRegressor
+#from sklearn.ensemble import RandomForestRegressor
 
 
 # In[10]:
@@ -64,7 +64,8 @@ from sklearn.linear_model import LinearRegression
 # In[11]:
 
 
-reg = LinearRegression().fit(X_train, y_train)
+reg = LinearRegression()
+reg.fit(X_train, y_train)
 
 
 # In[ ]:
