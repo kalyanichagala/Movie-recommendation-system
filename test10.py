@@ -215,7 +215,7 @@ print("Running RandomizedSearch CV")
 model1 = RandomizedSearchCV(estimator=rf, param_distributions=param_distributions, cv=3, n_iter=100)
 model1.fit(X_train, y_train)
 model1.best_params_
-model1_score = model1.score(X_train, y_train)
+#model1_score = model1.score(X_train, y_train)
 # Have a look at R sq to give an idea of the fit ,
 # Explained variance score: 1 is perfect prediction
 print("coefficient of determination R^2 of the prediction.: ", model1_score)
