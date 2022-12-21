@@ -81,7 +81,7 @@ data_outlier_IQR.shape
 
 corr = data.corr()
 fig, ax = plt.subplots(figsize=(10, 10))
-sns.heatmap(corr, annot=True, ax=ax)
+#sns.heatmap(corr, annot=True, ax=ax)
 
 # Feature Selection
 
