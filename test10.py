@@ -247,7 +247,7 @@ print("Running Gridsearch CV")
 model2 = GridSearchCV(estimator=rf, param_grid=param_grid, cv=3)
 model2.fit(X_train, y_train)
 model2.best_params_
-#model2_score = model2.score(X_train, y_train)
+model2_score = model2.score(X_train, y_train)
 # Have a look at R sq to give an idea of the fit ,
 # Explained variance score: 1 is perfect prediction
 print("coefficient of determination R^2 of the prediction.: ", model2_score)
