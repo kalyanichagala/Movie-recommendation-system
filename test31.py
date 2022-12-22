@@ -4,21 +4,21 @@
 # In[1]:
 
 
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import seaborn as sns
-import statsmodels.api as sm
-from patsy import dmatrices
-from scipy import stats
-from sklearn import metrics
+#import seaborn as sns
+#import statsmodels.api as sm
+#from patsy import dmatrices
+#from scipy import stats
+#from sklearn import metrics
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, r2_score
+#from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
-from statsmodels.stats.outliers_influence import variance_inflation_factor
+#from statsmodels.stats.outliers_influence import variance_inflation_factor
 from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import RandomizedSearchCV
+#from sklearn.model_selection import RandomizedSearchCV
 import time
 
 start_time = time.time()
