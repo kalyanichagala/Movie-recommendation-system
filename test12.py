@@ -71,9 +71,9 @@ Q3 = data.quantile(0.75)  # Getting the value of Third Quartile
 IQR = Q3 - Q1  # Calculating the interquartile range or IQR value
 print(IQR)
 
-data_outlier_IQ = data[~((data < (Q1 - 1.5 * IQR)) | (data > (Q3 + 1.5 * IQR))).any(axis=1)]
+data_outlier_IQR = data[~((data < (Q1 - 1.5 * IQR)) | (data > (Q3 + 1.5 * IQR))).any(axis=1)]
 
-data_outlier_IQ.shape
+data_outlier_IQR.shape
 
 #  Analysis
 
@@ -85,8 +85,8 @@ sns.heatmap(corr, annot=True, ax=ax)
 
 # Feature Selection
 
-X = data_outlier_IQ.drop("MEDV", 1)  # data  --- name of the dataset without missing values
-y = data_outlier_IQ["MEDV"]
+X = data_outlier_IQR.drop("MEDV", 1)  # data  --- name of the dataset without missing values
+y = data_outlier_IQR["MEDV"]
 
 # VIF
 
