@@ -65,7 +65,7 @@ print(y_val.shape)
 
 
 
-rf = RandomForestRegressor()
+rf = RandomForestRegressor(max_depth=4,n_estimators=100)
 
 param_grid = {
     
@@ -78,9 +78,9 @@ param_grid = {
 }
 
 
-#rf.fit(X_train,y_train)
-model2 = GridSearchCV(estimator=rf, param_grid=param_grid, cv=3)
-model2.fit(X_train, y_train)
+rf.fit(X_train,y_train)
+#model2 = GridSearchCV(estimator=rf, param_grid=param_grid, cv=3)
+#model2.fit(X_train, y_train)
 
 
 # In[ ]:
